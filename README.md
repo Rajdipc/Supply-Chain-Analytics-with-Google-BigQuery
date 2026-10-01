@@ -30,16 +30,16 @@ Modern global supply chains are multi-tiered, non-linear property graphs compris
 The digital twin models a multi-tier automotive manufacturing and shipping network:
 
 ```mermaid
-graph LR
-    Suppliers["Suppliers (Tier 1..N)"] -->|SupplierSupplies| Parts["Parts (Raw & Finished)"]
-    Parts -->|PartComposition (BOM)| Parts
-    Parts -->|ComponentParts| Components["Components (Assemblies)"]
-    Components -->|CarModelComponents| CarModels["Car Models (Vehicles)"]
+flowchart LR
+    Suppliers["Suppliers"] -->|SupplierSupplies| RawParts["Raw Materials"]
+    RawParts -->|PartComposition| FinishedParts["Finished Parts"]
+    FinishedParts -->|ComponentParts| Components["Components"]
+    Components -->|CarModelComponents| CarModels["Car Models"]
     Factories["Factories"] -->|FactoryAssembly| CarModels
-    Warehouses["Warehouses"] -->|WarehouseInventory| Parts
-    Shipments["Shipments"] -->|ShipmentContents| Parts
-    Shipments -->|ShipmentLogistics| Vessels["Vessels (Container Ships)"]
-    Vessels -->|ShippingRoutes| Ports["Ports (Maritime Hubs)"]
+    Warehouses["Warehouses"] -->|WarehouseInventory| FinishedParts
+    Shipments["Shipments"] -->|ShipmentContents| FinishedParts
+    Shipments -->|ShipmentLogistics| Vessels["Vessels"]
+    Vessels -->|ShippingRoutes| Ports["Ports"]
 ```
 
 ### Nodes & Relationships
