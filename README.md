@@ -8,6 +8,7 @@
 [![Vertex AI](https://img.shields.io/badge/Vertex_AI-Vector_Embeddings-EA4335?logo=googlecloud&logoColor=white)](https://cloud.google.com/vertex-ai)
 [![Medium](https://img.shields.io/badge/Medium-Article-black?logo=medium&logoColor=white)](https://medium.com/google-cloud/supply-chain-analytics-with-bigquery-graph-from-reactive-to-predictive-3324239edfa3)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Open in Cloud Shell](https://gstatic.com/cloudssh/images/open-btn.svg)](https://console.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/Rajdipc/Supply-Chain-Analytics-with-Google-BigQuery.git&cloudshell_open_in_editor=README.md)
 
 `#BigQueryGraph` &nbsp;•&nbsp; `#BigQuery` &nbsp;•&nbsp; `#GoogleCloud` &nbsp;•&nbsp; `#GQL` &nbsp;•&nbsp; `#SupplyChain` &nbsp;•&nbsp; `#GraphAnalytics` &nbsp;•&nbsp; `#PropertyGraph` &nbsp;•&nbsp; `#BigQueryML` &nbsp;•&nbsp; `#VertexAI` &nbsp;•&nbsp; `#VectorSearch` &nbsp;•&nbsp; `#DigitalTwin` &nbsp;•&nbsp; `#MLOps`
 
